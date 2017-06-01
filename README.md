@@ -1,4 +1,4 @@
-# chembl_beaker-docker
+# Chembl-beaker Docker
 RDKit and OSRA in the Bottle on Tornado as a Docker Image
 
 Dockerized version of the Chembl [chembl-beaker](https://github.com/chembl/chembl_beaker) webserver that exposes functions for transformation of molecular information into other formats as a REST service
