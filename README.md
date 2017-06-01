@@ -27,7 +27,7 @@ Beaker is a wrapper for [RDKit](http://www.rdkit.org/) and [OSRA](http://cactus.
 As a portable, lightweight, [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)-ready, [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)-speaking, [SPORE](https://github.com/SPORE/specifications)-documented webserver. This particular Dockerfile allows you to deploy Beaker without compiling and installing sources or using the Chembl virtual machine image. It wraps RDKit in [Bottle](http://bottlepy.org/docs/dev/) on [Tornado](http://www.tornadoweb.org/en/stable/).
 
 ## Installation
-Make sure your machine supports Docker, then (assuming Linux) type `docker pull isnow/chembl-beaker-docker` to pull the Dockerfile from Docker-Hub and build it on your machine. Or `git clone https://github.com/iSnow/chembl_beaker-docker.git && docker build  -t chembl/beaker:1.1.14 .` to pull the latest version from Github and build it on your machine.
+Make sure your machine supports Docker, then (assuming Linux) type `docker pull jjander/chembl_beaker` to pull the Dockerfile from Docker-Hub and build it on your machine. Or `git clone https://github.com/iSnow/chembl_beaker-docker.git && docker build  -t chembl/beaker:1.1.14 .` to pull the latest version from Github and build it on your machine.
 
 ## Running Beaker
 (assuming Linux) type `docker run -p 7655:8080 chembl/beaker:1.1.14` to start the image. Point your browser to http://<DOCKER-SERVER>:8080/docs (e.g. http://localhost:8080/docs) to start using Beaker.
