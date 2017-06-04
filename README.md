@@ -31,3 +31,10 @@ Make sure your machine supports Docker, then (assuming Linux) type `docker pull 
 
 ## Running Beaker
 (assuming Linux) type `docker run -p 7655:8080 chembl/beaker:1.1.14` to start the image. Point your browser to http://<DOCKER-SERVER>:8080/docs (e.g. http://localhost:8080/docs) to start using Beaker.
+
+## Additional information
+
+* [OCR for images of chemical structures](https://metamolecular.com/blog/2013/08/07/reading-chemical-structures-from-images-with-osra-2-0/) - installation instruction for OSRA 2.0 which is used in this Beaker distribution
+* [myChembl 29 released](http://chembl.blogspot.de/2014/10/mychembl-19-released.html) - myChembl also contains Beaker if you'd rather use it via a VM and integrated with iPython notebooks.
+* [installing RDKit with Anaconda](http://www.rdkit.org/docs/Install.html) - Miniconda, a related version is used to install RDKit in this Beaker distribution
+
